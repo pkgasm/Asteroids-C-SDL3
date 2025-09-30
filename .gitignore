@@ -1,0 +1,14 @@
+# Archivos compilados y ejecutables
+*.o
+*.exe
+asteroids
+
+# Archivo de puntuación generado por el juego
+highscore.txt
+
+# Archivos de configuración de editores/IDE
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store

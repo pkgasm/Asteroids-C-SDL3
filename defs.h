@@ -1,0 +1,30 @@
+#ifndef DEFS_H
+#define DEFS_H
+
+// --- Constantes del Juego ---
+#define SCREEN_WIDTH 800
+#define SCREEN_HEIGHT 600
+#define SHIP_SIZE 15.0f
+#define SHIP_ACCELERATION 200.0f
+#define SHIP_TURN_SPEED 200.0f
+#define SHIP_FRICTION 0.5f
+#define MAX_BULLETS 10
+#define BULLET_SPEED 400.0f
+#define BULLET_LIFESPAN 1.5f
+#define MAX_ASTEROIDS 10
+#define ASTEROID_SPEED 50.0f
+#define ASTEROID_MAX_VERTS 12
+#define UFO_SPEED 100.0f
+#define UFO_SPAWN_TIME 15.0f
+#define MAX_POWERUPS 5
+#define POWERUP_LIFESPAN 8.0f
+#define POWERUP_SIZE 10.0f
+#define SHIELD_DURATION 10.0f
+#define TRIPLE_SHOT_DURATION 10.0f
+#define MAX_STARS 200
+#define MAX_PARTICLES 200
+#define PARTICLE_LIFESPAN 1.0f
+#define HYPERSPACE_DURATION 0.5f
+#define HYPERSPACE_COOLDOWN 5.0f
+
+#endif // DEFS_H
